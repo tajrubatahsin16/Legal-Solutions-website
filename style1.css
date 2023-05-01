@@ -1,0 +1,107 @@
+a:hover{
+    text-decoration: none;
+}
+
+.banner .container{
+    position: absolute; left:0; right:0; top:50%; text-align:left; transform:translateY(-50%)
+}
+.sec-1, .sec-2, .sec-3, .sec-4{
+    margin-top: 120px;
+}
+.des{
+    color: #707070;
+}
+.grid-sec, .slider-sec, .sec-3-des{
+    margin-top: 64px;
+}
+.carousel-item > div {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.carousel-inner{
+    height: 500px;
+    border-radius: 8px;
+}
+.carousel-item .slider{
+    background-color: #000; 
+    filter: brightness(50%);
+}
+.accordion-item{
+    background-color: whitesmoke;
+}
+.accordion-button{
+    background-color: whitesmoke;
+}
+.accordion{
+    width: 400px;
+}
+.sec-4{
+    background-color: black;
+    height: 450px;
+  }
+  ul{
+    list-style: none;
+}
+.sec-4 .container{
+    padding-top: 120px;
+}
+.justice{
+    padding-right: 60px;
+}
+.links{
+    padding-right: 60px;
+}
+.contact{
+    padding-right: 60px;
+}
+.buttonIn {
+    width: 200px;
+    position: relative;
+}
+ 
+.input1 {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 33px;
+    border-radius: 5px;
+}
+ 
+.button1 {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: 0px;
+    z-index: 2;
+    border: none;
+    top: 2px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #B68C5A;
+    transform: translateX(3px);
+}
+@media screen and (max-width:767px){
+    .container{
+        height: 362px;
+    }
+    .home_slider_title{
+        font-size: 15px;
+    }
+    .home_slider_subtitle{
+        font-size: 12px;
+    }
+    .sec-3-des{
+        flex-direction: column;
+    }
+    .sec-4{
+        height: 950px;
+    }
+    .sec-4 .container{
+        flex-direction: column;
+        padding-top: 520px;
+    }
+}
